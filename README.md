@@ -3,9 +3,11 @@
 This application will be in Java.
 
 This program will ask the user for 
-salary and years of the job to qualify
-for the loan the user is asking.
+salary and years of the job if the user
+qualify for the loan.
 
-## Successed Loaded
+## Loan Qualifier App in HTML5, CSS3, and JavaScript.
 
-This is the beginning after cloning my file.
+I going to see what else can be added 
+them I will create the same app on HTML5,
+CSS3, and Javascript.
