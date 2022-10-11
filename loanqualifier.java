@@ -11,7 +11,7 @@ import java.util.Scanner;
         System.out.print("****************************************\n");
         System.out.print("*          Loan Qualifier App          *\n");
         System.out.print("****************************************\n");
-        
+
         //Variables.
         double salary;
         double yearsOnJob;
@@ -22,11 +22,12 @@ import java.util.Scanner;
         //Get the users salary.
         System.out.println("Enter you annual salary: ");
         salary = keyboard.nextDouble();
-
+        System.out.print("****************************************\n");
         //Get the user's years on the job.
         System.out.println("Enter the years work for your current company: ");
         yearsOnJob = keyboard.nextDouble();
         
+        System.out.print("****************************************\n");
         //Determine whether the user qualify for the loan.
         if(salary >= 50000 || yearsOnJob >= 2){
             System.out.println("You qualify for the loan.");
