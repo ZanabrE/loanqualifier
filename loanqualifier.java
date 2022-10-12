@@ -30,16 +30,16 @@ import java.util.Scanner;
         System.out.println("Enter the years work for your current company: ");
         yearsOnJob = keyboard.nextDouble();
         System.out.print("****************************************\n");
-        //Get the usre's credit score.
+        //Get the user's credit score.
         System.out.println("Enter your credit score: ");
         creditScore = keyboard.nextDouble();
         
         System.out.print("****************************************\n");
-        //Determine whether the user qualify for the loan.
+        //Determine whether the user qualify for the loan with good credit score.
         if(salary >= 50000 || yearsOnJob >= 2 || creditScore >= 670){
             System.out.println("You qualify for the loan.");
 
-            //Determine the user's credit score.
+            //These conditionals will determine your credit score..
             if(creditScore >= 800 || creditScore >= 850){
                 System.out.println("Exceptional.");
                 System.out.println("21% individuals with an exceptional FICO Score.");
