@@ -36,7 +36,7 @@ import java.util.Scanner;
         
         System.out.print("****************************************\n");
         //Determine whether the user qualify for the loan.
-        if(salary >= 50000 || yearsOnJob >= 2){
+        if(salary >= 50000 || yearsOnJob >= 2 || creditScore >= 670){
             System.out.println("You qualify for the loan.");
 
             //Determine the user's credit score.
@@ -62,7 +62,7 @@ import java.util.Scanner;
                 System.out.println("Please try to improve your FICO Score.");
             }
             else{
-                System.out.println("Please fix you FICO Score.");
+                System.out.println("Please fix your FICO Score.");
             }
         }
         else{
