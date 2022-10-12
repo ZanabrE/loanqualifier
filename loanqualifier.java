@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import javax.sound.midi.SysexMessage;
-
 /**
  * This program is for the loan qualifier
  * and will have the logical OR (||) operator.
