@@ -58,7 +58,8 @@ import java.util.Scanner;
             }
             else if(creditScore >= 300 || creditScore >= 579){
                 System.out.println("Poor.");
-                System.out.println("16% inidividuals with porr FICO Score.");
+                System.out.println("16% inidividuals with poor FICO Score.");
+                System.out.println("Please try to improve your FICO Score.");
             }
             else{
                 System.out.println("Please fix you FICO Score.");
@@ -67,5 +68,6 @@ import java.util.Scanner;
         else{
             System.out.println("Sorry, you don't qualify for the loan.");
         }
+        keyboard.close();
     }
  }
